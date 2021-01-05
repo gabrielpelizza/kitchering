@@ -162,6 +162,9 @@ section.banner img{
 
     .container section.vip-products{
         overflow:hidden;
+        display:flex;
+        flex-wrap: wrap;
+        flex-direction:row;
     }
 
     .container section.vip-products article{
