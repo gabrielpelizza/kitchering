@@ -193,9 +193,17 @@ section.banner img{
         margin-right:0;
     }
 
+    .container section.vip-products{
+        display:flex;
+        flex-wrap: wrap;
+        flex-direction:row;
+        justify-content:space-between;
+    }
+
     .container section.vip-products article{
         width:380px;
         margin-left:0px;
+        
     }
     .container section.vip-products article:nth-child(odd){
         margin-right:0%;
@@ -209,30 +217,21 @@ section.banner img{
         margin-top: 10px;
     }   
 
-    .container section.vip-products article#seccion-prod-1:not(:first-child){
-        margin-right: 3.5%;
-        margin-left: 3.5%;
-    }
-
-    .container section.vip-products article#seccion-prod-final{
-        margin-right:0;
-    }
-    
-    .container section.vip-products article#seccion-prod-2:not(:first-child){
-        margin-right: 3.5%;
-        
-    }
-
     .container footer{
         background-color:firebrick;
         width:100%;
         height:150px;
         border-top-left-radius: 30px;
         border-top-right-radius: 30px;
+        display:flex;
+        flex-direction: row;
+        align-items:center;
+        justify-content:center;
     }
 
     .container footer ul{
-        padding:55px 0 30px 28%;
+        display:flex;
+        justify-content:center;
     }
 
     .container footer ul li{
